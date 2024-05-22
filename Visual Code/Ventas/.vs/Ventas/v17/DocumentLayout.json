@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bomiki\\Desktop\\Tareas Mariano\\Programacion 1\\Mysql ft VISUAL\\Proyecto\\Visual Code\\Ventas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25D5394C-DF35-4158-B0EB-CD7205687490}|Ventas\\Ventas.vcxproj|C:\\Users\\Bomiki\\Desktop\\Tareas Mariano\\Programacion 1\\Mysql ft VISUAL\\Proyecto\\Visual Code\\Ventas\\Ventas\\Ventas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D5394C-DF35-4158-B0EB-CD7205687490}|Ventas\\Ventas.vcxproj|solutionrelative:Ventas\\Ventas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ventas.cpp",
+              "DocumentMoniker": "C:\\Users\\Bomiki\\Desktop\\Tareas Mariano\\Programacion 1\\Mysql ft VISUAL\\Proyecto\\Visual Code\\Ventas\\Ventas\\Ventas.cpp",
+              "RelativeDocumentMoniker": "Ventas\\Ventas.cpp",
+              "ToolTip": "C:\\Users\\Bomiki\\Desktop\\Tareas Mariano\\Programacion 1\\Mysql ft VISUAL\\Proyecto\\Visual Code\\Ventas\\Ventas\\Ventas.cpp",
+              "RelativeToolTip": "Ventas\\Ventas.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-22T05:09:43.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
