@@ -1,3 +1,42 @@
-﻿  Ventas.cpp
-MSVCRT.lib(exe_main.obj) : error LNK2001: símbolo externo main sin resolver
-C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\x64\Release\Ventas.exe : fatal error LNK1120: 1 externos sin resolver
+﻿  main.cpp
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Empleado.h(84,14): warning C4101: 'resultados': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Empleado.h(83,13): warning C4101: 'fila': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Puesto.h(38,14): warning C4101: 'resultados': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Puesto.h(37,13): warning C4101: 'fila': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Clientes.h(67,14): warning C4101: 'resultados': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Clientes.h(66,13): warning C4101: 'fila': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Marca.h(38,14): warning C4101: 'resultados': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Marca.h(37,13): warning C4101: 'fila': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Productos.h(71,14): warning C4101: 'resultados': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Productos.h(70,13): warning C4101: 'fila': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Proveedores.h(52,14): warning C4101: 'resultados': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\Ventas\Proveedores.h(51,13): warning C4101: 'fila': variable local sin referencia
+  (compilando archivo de origen "main.cpp")
+  
+  Generando código
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 200 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Ventas.vcxproj -> C:\Users\Bomiki\Desktop\Tareas Mariano\Programacion 1\Mysql ft VISUAL\Proyecto\Visual Code\Ventas\x64\Release\Ventas.exe

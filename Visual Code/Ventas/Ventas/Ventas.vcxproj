@@ -131,10 +131,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ventas.cpp" />
+    <ClCompile Include="Empleado.cpp" />
+    <ClCompile Include="Persona.cpp" />
+    <ClCompile Include="ConexionDB.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Empleado.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Header1.h" />
+    <ClInclude Include="Clientes.h" />
+    <ClInclude Include="Marca.h" />
+    <ClInclude Include="Persona.h" />
     <ClInclude Include="ConexionDB.h" />
+    <ClInclude Include="Productos.h" />
+    <ClInclude Include="Proveedores.h" />
+    <ClInclude Include="Puesto.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
