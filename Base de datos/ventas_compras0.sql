@@ -16,29 +16,31 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `proveedores`
+-- Table structure for table `compras`
 --
 
-DROP TABLE IF EXISTS `proveedores`;
+DROP TABLE IF EXISTS `compras`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `proveedores` (
-  `ID_PROVEEDOR` int NOT NULL AUTO_INCREMENT,
-  `PROVEEDOR` varchar(60) DEFAULT NULL,
-  `NIT` varchar(12) DEFAULT NULL,
-  `DIRECCION` varchar(80) DEFAULT NULL,
-  `TELEFONO` varchar(25) DEFAULT NULL,
-  PRIMARY KEY (`ID_PROVEEDOR`)
+CREATE TABLE `compras` (
+  `ID_COMPRA` int NOT NULL AUTO_INCREMENT,
+  `NO_ORDEN_COMPRA` int DEFAULT NULL,
+  `ID_PROVEEDOR` int DEFAULT NULL,
+  `FECHA_ORDEN` date DEFAULT NULL,
+  `FECHA_INGRESO` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID_COMPRA`),
+  KEY `ID_PROVEEDOR_idx` (`ID_PROVEEDOR`),
+  CONSTRAINT `ID_PROVEEDOR` FOREIGN KEY (`ID_PROVEEDOR`) REFERENCES `proveedores` (`ID_PROVEEDOR`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `proveedores`
+-- Dumping data for table `compras`
 --
 
-LOCK TABLES `proveedores` WRITE;
-/*!40000 ALTER TABLE `proveedores` DISABLE KEYS */;
-/*!40000 ALTER TABLE `proveedores` ENABLE KEYS */;
+LOCK TABLES `compras` WRITE;
+/*!40000 ALTER TABLE `compras` DISABLE KEYS */;
+/*!40000 ALTER TABLE `compras` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-05-21 23:20:45
+-- Dump completed on 2024-06-01 15:53:39

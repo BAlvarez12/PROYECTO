@@ -16,29 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `proveedores`
+-- Table structure for table `marcas`
 --
 
-DROP TABLE IF EXISTS `proveedores`;
+DROP TABLE IF EXISTS `marcas`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `proveedores` (
-  `ID_PROVEEDOR` int NOT NULL AUTO_INCREMENT,
-  `PROVEEDOR` varchar(60) DEFAULT NULL,
-  `NIT` varchar(12) DEFAULT NULL,
-  `DIRECCION` varchar(80) DEFAULT NULL,
-  `TELEFONO` varchar(25) DEFAULT NULL,
-  PRIMARY KEY (`ID_PROVEEDOR`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `marcas` (
+  `ID_MARCA` smallint NOT NULL AUTO_INCREMENT,
+  `MARCA` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`ID_MARCA`)
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `proveedores`
+-- Dumping data for table `marcas`
 --
 
-LOCK TABLES `proveedores` WRITE;
-/*!40000 ALTER TABLE `proveedores` DISABLE KEYS */;
-/*!40000 ALTER TABLE `proveedores` ENABLE KEYS */;
+LOCK TABLES `marcas` WRITE;
+/*!40000 ALTER TABLE `marcas` DISABLE KEYS */;
+INSERT INTO `marcas` VALUES (1,'Toyota'),(2,'Ford'),(3,'Chevrolet'),(4,'Honda'),(5,'Nissan'),(6,'BMW'),(7,'Mercedes-Benz'),(8,'Volkswagen'),(9,'Audi'),(10,'Hyundai'),(11,'Kia'),(12,'Subaru'),(13,'Mazda'),(14,'Lexus'),(15,'Jeep'),(16,'Dodge'),(17,'Ram'),(18,'Cadillac'),(19,'Buick'),(20,'Chrysler'),(21,'Volvo'),(22,'Land Rover'),(23,'Jaguar'),(24,'Porsche'),(25,'Mini'),(26,'Mitsubishi'),(27,'Tesla'),(28,'Acura'),(29,'Infiniti'),(30,'Lincoln');
+/*!40000 ALTER TABLE `marcas` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-05-21 23:20:45
+-- Dump completed on 2024-06-01 15:53:39

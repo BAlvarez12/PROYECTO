@@ -16,29 +16,35 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `proveedores`
+-- Table structure for table `ventas`
 --
 
-DROP TABLE IF EXISTS `proveedores`;
+DROP TABLE IF EXISTS `ventas`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `proveedores` (
-  `ID_PROVEEDOR` int NOT NULL AUTO_INCREMENT,
-  `PROVEEDOR` varchar(60) DEFAULT NULL,
-  `NIT` varchar(12) DEFAULT NULL,
-  `DIRECCION` varchar(80) DEFAULT NULL,
-  `TELEFONO` varchar(25) DEFAULT NULL,
-  PRIMARY KEY (`ID_PROVEEDOR`)
+CREATE TABLE `ventas` (
+  `ID_VENTA` int NOT NULL AUTO_INCREMENT,
+  `NO_FACTURA` int DEFAULT NULL,
+  `SERIE` char(1) DEFAULT NULL,
+  `FECHA_FACTURA` date DEFAULT NULL,
+  `ID_CLIENTE` int DEFAULT NULL,
+  `ID_EMPLEADO` int DEFAULT NULL,
+  `FECHA_INGRESO` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID_VENTA`),
+  KEY `ID_EMPLEADO_idx` (`ID_EMPLEADO`),
+  KEY `ID_CLIENTES_idx` (`ID_CLIENTE`),
+  CONSTRAINT `ID_CLIENTES` FOREIGN KEY (`ID_CLIENTE`) REFERENCES `clientes` (`ID_CLIENTE`) ON UPDATE CASCADE,
+  CONSTRAINT `ID_EMPLEADO` FOREIGN KEY (`ID_EMPLEADO`) REFERENCES `empleados` (`ID_EMPLEADO`) ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `proveedores`
+-- Dumping data for table `ventas`
 --
 
-LOCK TABLES `proveedores` WRITE;
-/*!40000 ALTER TABLE `proveedores` DISABLE KEYS */;
-/*!40000 ALTER TABLE `proveedores` ENABLE KEYS */;
+LOCK TABLES `ventas` WRITE;
+/*!40000 ALTER TABLE `ventas` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ventas` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-05-21 23:20:45
+-- Dump completed on 2024-06-01 15:53:39

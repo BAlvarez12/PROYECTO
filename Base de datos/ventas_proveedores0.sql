@@ -29,7 +29,7 @@ CREATE TABLE `proveedores` (
   `DIRECCION` varchar(80) DEFAULT NULL,
   `TELEFONO` varchar(25) DEFAULT NULL,
   PRIMARY KEY (`ID_PROVEEDOR`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,6 +38,7 @@ CREATE TABLE `proveedores` (
 
 LOCK TABLES `proveedores` WRITE;
 /*!40000 ALTER TABLE `proveedores` DISABLE KEYS */;
+INSERT INTO `proveedores` VALUES (1,'Proveedor Alfa','123456789','Ciudad A','12345678'),(2,'Proveedor Beta','234567890','Ciudad B','23456789'),(3,'Proveedor Gamma','345678901','Ciudad C','34567890'),(4,'Proveedor Delta','456789012','Ciudad D','45678901'),(5,'Proveedor Epsilon','567890123','Ciudad E','56789012'),(6,'Proveedor Zeta','678901234','Ciudad F','67890123'),(7,'Proveedor Eta','789012345','Ciudad G','78901234'),(8,'Proveedor Theta','890123456','Ciudad H','89012345'),(9,'Proveedor Iota','901234567','Ciudad I','90123456'),(10,'Proveedor Kappa','012345678','Ciudad J','01234567'),(11,'Proveedor Lambda','112345678','Ciudad K','11234567'),(12,'Proveedor Mu','212345678','Ciudad L','21234567'),(13,'Proveedor Nu','312345678','Ciudad M','31234567'),(14,'Proveedor Xi','412345678','Ciudad N','41234567'),(15,'Proveedor Omicron','512345678','Ciudad O','51234567'),(16,'Proveedor Pi','612345678','Ciudad P','61234567'),(17,'Proveedor Rho','712345678','Ciudad Q','71234567'),(18,'Proveedor Sigma','812345678','Ciudad R','81234567'),(19,'Proveedor Tau','912345678','Ciudad S','91234567'),(20,'Proveedor Upsilon','019283746','Ciudad T','01928374'),(21,'','12236554','','2356897'),(22,'','89562321','','32568987'),(23,'Bryanaaa','56236589','','3265564'),(24,'bryann','56325632','','32563265'),(25,'ahoasd','98652356','asdasdasd','32563256');
 /*!40000 ALTER TABLE `proveedores` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-05-21 23:20:45
+-- Dump completed on 2024-06-01 15:53:39
