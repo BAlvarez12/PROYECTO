@@ -31,6 +31,16 @@ public :
 	}
 	void setproducto(string prod) {
 		producto = prod;
+	}
+	void setidmarca(int marca) {
+		id_marca = marca;
+	}
+	void setdescripcion(string des) {
+		descripcion = des;
+	}
+	void setimagen(string ima) {
+		imagen = ima;
+	}
 	void setpreciocosto(int costo) {
 		precio_costo = costo;
 	}
