@@ -21,7 +21,7 @@ public:
 		Persona(nom, ape, dir, fn, tel) {
 		DPI = pi;
 		NIT = NIT;
-		fecha_inicio_labores = fnl; 
+		fecha_inicio_labores = fnl;
 		fecha_ingreso = fi;
 		id_empleado = empleado;
 		genero = gen;
@@ -31,7 +31,7 @@ public:
 		DPI = pi;
 	}
 	void setNIT(int NIT) {
-		NIT = Nit;
+		NIT = NIT;
 	}
 	void setnombre(string nom) {
 		nombre = nom;
@@ -103,7 +103,7 @@ public:
 		cn.cerrar_conexion();
 	}
 	void leer_empleado() {
-		int q_estado; 
+		int q_estado;
 		ConexionBD cn = ConexionBD();
 		MYSQL_ROW fila;
 		MYSQL_RES* resultados;
