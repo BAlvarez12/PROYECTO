@@ -23,7 +23,15 @@ public:
 	}
 	void setidpuesto(int id) {
 		id_puesto = id;
+	}
+	void setpuesto(string pues) {
+		puesto = pues;
+	}
 
+	int getidpuesto() { return id_puesto; }
+	string getpuesto() { return puesto; }
+
+	void crear_puesto() {
 		int q_estado;
 		ConexionBD bd = ConexionBD();
 		MYSQL_ROW fila;
