@@ -303,7 +303,7 @@ int main() {
 						x.leer_marca();
 					}// FIN CASE 4
 	}
-	case 5: { // INICIO CASE 5 PRODUCTOS
+	case 5: { // INICIO CASE 5 PRODUCTOS...
 
 		int opu;
 		cout << "_____Iniciando sistema_______" << endl;

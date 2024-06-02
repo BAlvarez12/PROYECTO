@@ -31,7 +31,7 @@ public:
 		DPI = pi;
 	}
 	void setNIT(int NIT) {
-		NIT = NIT;
+		NIT = Nit;
 	}
 	void setnombre(string nom) {
 		nombre = nom;
