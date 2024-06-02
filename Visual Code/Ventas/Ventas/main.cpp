@@ -37,7 +37,7 @@ int main() {
 	cin >> opcion;
 
 	switch (opcion) {
-	case 1: {  // INICIO DE CASE 1 EMPLEADOS...
+	case 1: {  // INICIO DE CASE 1 EMPLEADOS
 		int op;
 		cout << "_____Iniciando sistema_______" << endl;
 		cout << "1. Leer Empleadoss" << endl;
@@ -303,7 +303,7 @@ int main() {
 						x.leer_marca();
 					}// FIN CASE 4
 	}
-	case 5: { // INICIO CASE 5 PRODUCTOS...
+	case 5: { // INICIO CASE 5 PRODUCTOS
 
 		int opu;
 		cout << "_____Iniciando sistema_______" << endl;

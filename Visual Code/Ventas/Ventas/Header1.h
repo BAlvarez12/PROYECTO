@@ -27,10 +27,10 @@ int main() {
 	case 1: {
 		int op;
 		cout << "_____Iniciando sistema_______" << endl;
-		cout << "1. Leer Empleados" << endl;
+		cout << "1. Leer Empleadoss" << endl;
 		cout << "2. Crear Empleados" << endl;
 		cout << "3. Actualizar Empleados" << endl;
-		cout << "4. Borrar Empleados" << endl;
+		cout << "4. Borrar empleado" << endl;
 		cin >> op;
 		cin.ignore();
 		if (op == 1) {
@@ -81,28 +81,28 @@ int main() {
 					cin.ignore();
 					cout << " Ingrese los nuevos Datos" << endl;
 
-					cout << "Nombre: ";
+					cout << "Nombre:";
 					getline(cin, nombre);
-					cout << "Apellido: ";
+					cout << "Apellido:";
 					getline(cin, apellido);
-					cout << "Direccion: ";
+					cout << "Direccion:";
 					getline(cin, direccion);
-					cout << "Telefono: ";
+					cout << "Telefono:";
 					cin >> telefono;
 					cin.ignore();
-					cout << "DPI: ";
+					cout << "DPI:";
 					cin >> DPI;
 					cin.ignore();
-					cout << "Genero M / F: ";
+					cout << "Genero M / F:";
 					getline(cin, genero);
-					cout << "Fecha Nacimiento: ";
+					cout << "Fecha Nacimiento:";
 					getline(cin, fecha_nacimiento);
-					cout << "Puesto: ";
+					cout << "Puesto:";
 					cin >> id_puesto;
 					cin.ignore();
-					cout << "Fecha Inicio de Labores: ";
+					cout << "Fecha Inicio de Labores:";
 					getline(cin, fecha_inicio_labores);
-					cout << "Fecha Ingreso: ";
+					cout << "Fecha Ingreso:";
 					getline(cin, fecha_ingreso);
 
 					Empleado c = Empleado(empleado, DPI, NIT, nombre, apellido, direccion, fecha_nacimiento, id_puesto, telefono, genero, fecha_inicio_labores, fecha_ingreso);
