@@ -27,10 +27,10 @@ int main() {
 	case 1: {
 		int op;
 		cout << "_____Iniciando sistema_______" << endl;
-		cout << "1. Leer Empleadoss" << endl;
+		cout << "1. Leer Empleados" << endl;
 		cout << "2. Crear Empleados" << endl;
 		cout << "3. Actualizar Empleados" << endl;
-		cout << "4. Borrar empleado" << endl;
+		cout << "4. Borrar Empleados" << endl;
 		cin >> op;
 		cin.ignore();
 		if (op == 1) {
