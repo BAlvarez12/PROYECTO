@@ -23,21 +23,7 @@ public:
 		NIT = NIT;
 		fecha_inicio_labores = fnl;
 		fecha_ingreso = fi;
-		id_empleado = empleado;
-		genero = gen;
-		id_puesto = puesto;
-	}
-	void setDPI(int pi) {
-		DPI = pi;
-	}
-	void setNIT(int NIT) {
-		NIT = NIT;
-	}
-	void setnombre(string nom) {
-		nombre = nom;
-	}
-	void setapellido(string ape) {
-		apellido = ape;
+
 	}
 	void setdireccion(string dir) {
 		direccion = dir;
