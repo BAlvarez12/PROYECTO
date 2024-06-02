@@ -25,15 +25,6 @@ public:
 		fecha_ingreso = fi;
 
 	}
-	void setdireccion(string dir) {
-		direccion = dir;
-	}
-	void setfechanacimiento(string fn) {
-		fecha_nacimiento = fn;
-	}
-	void settelefono(int tel) {
-		telefono = tel;
-	}
 	void setfechainiciolabores(string fnl) {
 		fecha_inicio_labores = fnl;
 	}
