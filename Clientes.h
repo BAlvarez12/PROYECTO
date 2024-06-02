@@ -26,9 +26,6 @@ public:
 		correo_electronico = correo;
 		fecha_ingreso = fi;
 	}
-	void setidcliente(int id) {
-		id_cliente = id;
-	}
 	void setnombre(string nom) {
 		nombre = nom;
 	}
