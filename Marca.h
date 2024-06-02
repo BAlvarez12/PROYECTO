@@ -30,6 +30,30 @@ public:
 
 	int getidmarca() { return id_marca; }
 	string getmarca() { return marca; }
+
+	void crear_marca() {
+		int q_estado;
+		ConexionBD bd = ConexionBD();
+		MYSQL_ROW fila;
+		MYSQL_RES* resultados;
+		bd.abrir_conexion();
+		if (bd.getConectar()) {
+			string p = to_string(id_marca);
+			string insert = "INSERT INTO marcas (marca)VALUES('"+marca+"');";
+			const char* i = insert.c_str();
+			q_estado = mysql_query(bd.getConectar(), i);
+			if (!q_estado) {
+				cout << "Ingreso Exitoso..." << endl;
+			}
+			else {
+				cout << "Error al ingresar..." << endl;
+			}
+		}
+		else {
+			cout << "---- Error de Conexion ----" << endl;
+		}
+		bd.cerrar_conexion();
+	}
 	void leer_marca() {
 		int q_estado;
 		ConexionBD bd = ConexionBD();
