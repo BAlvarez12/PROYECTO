@@ -14,6 +14,7 @@ protected:
 		nombre = nom;
 		apellido = ape;
 		direccion = dir;
+		fecha_nacimiento = fn;
 		telefono = tel;
 
 	}
