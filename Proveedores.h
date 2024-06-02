@@ -37,14 +37,6 @@ public:
 	void settelefono(int tel) {
 		telefono = tel;
 	}
-
-	int getidproveedor() { return id_proveedor; }
-	string getproveedor() { return proveedor; }
-	int getNIT() { return NIT; }
-	string getdireccion() { return direccion; }
-	int gettelefono() { return telefono; }
-
-
 	void crear_proveedor() {
 		int q_estado;
 		ConexionBD cn = ConexionBD();
