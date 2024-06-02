@@ -46,6 +46,23 @@ int main() {
 				getline(cin, direccion);
 				cout << "Telefono";
 				cin >> telefono;
+				cin.ignore();
+				cout << "DPI";
+				cin >> DPI;
+				cin.ignore();
+				cout << "Genero M / F";
+				getline(cin, genero);
+				cout << "Fecha Nacimiento";
+				getline(cin, fecha_nacimiento);
+				cout << "Puesto";
+				cin >> id_puesto;
+				cin.ignore();
+				cout << "Fecha Inicio de Labores";
+				getline(cin, fecha_inicio_labores);
+				cout << "Fecha Ingreso";
+				getline(cin, fecha_ingreso);
+				c.crear_empleado();
+			}
 			else
 				if (op == 3) {
 					c.actualizar_empleado();
