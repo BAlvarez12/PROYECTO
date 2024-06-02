@@ -21,7 +21,7 @@ public:
 		Persona(nom, ape, dir, fn, tel) {
 		DPI = pi;
 		NIT = NIT;
-		fecha_inicio_labores = fnl;
+		fecha_inicio_labores = fnl; 
 		fecha_ingreso = fi;
 		id_empleado = empleado;
 		genero = gen;
