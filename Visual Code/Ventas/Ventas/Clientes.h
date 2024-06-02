@@ -134,7 +134,7 @@ public:
 			}
 		}
 		else {
-			cout << " xxx Error en la Conexion xxxx" << endl;
+			cout << " xxx Error en la Conexion xxx" << endl;
 		}
 		cn.cerrar_conexion();
 	}
@@ -157,7 +157,7 @@ public:
 			}
 		}
 		else {
-			cout << " xxx Error en la Conexion xxxx" << endl;
+			cout << " xxx Error en la Conexion xxx" << endl;
 		}
 		cn.cerrar_conexion();
 	}
