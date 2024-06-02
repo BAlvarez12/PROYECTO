@@ -37,7 +37,7 @@ int main() {
 	cin >> opcion;
 
 	switch (opcion) {
-	case 1: {  // INICIO DE CASE 1 EMPLEADOS
+	case 1: {  // INICIO DE CASE 1 EMPLEADOS...
 		int op;
 		cout << "_____Iniciando sistema_______" << endl;
 		cout << "1. Leer Empleadoss" << endl;
