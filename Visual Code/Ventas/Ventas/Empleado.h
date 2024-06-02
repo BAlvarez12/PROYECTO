@@ -103,7 +103,7 @@ public:
 		cn.cerrar_conexion();
 	}
 	void leer_empleado() {
-		int q_estado;
+		int q_estado; 
 		ConexionBD cn = ConexionBD();
 		MYSQL_ROW fila;
 		MYSQL_RES* resultados;
